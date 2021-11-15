@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Reset Button</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="sideRed" id="leftRed"></div>
+	<div class="sideRed" id="rightRed"></div>
+
+	<div id="content">
+		<p>This is the least exciting, but arguably a rather useful mod,
+			especially along with the SD card mod. Don't expect anyone to
+			congratulate you for it, even @άκηςμαύρο can do it. I can assure you
+			you'll need it anyway so here we go.</p>
+
+		<p>
+			⚠️ Make sure you have read <a href="index.html">Info</a> and followed
+			<a href="gettingStarted.html">Getting Started</a> before proceeding.
+		</p>
+		<p>
+			<span class="bold underline">Difficulty:</span> 1/5
+		</p>
+		<p class="bold underline">Parts required:</p>
+		<ul>
+			<li>Two pieces of wire, any length will do, better be small (we
+				recommend about 2/3rds the size of @Odyssey346's pp or 32awg) so it
+				doesn't take up space and it's easier to bend into shape.</li>
+			<li>One Normally Open push button. Please, don't be like
+				DeadlyFoez, use a button that doesn't short itself by default
+				putting your console to an indefinite loop of re- re- re- resetting.</li>
+			<li>Two tablespoons of hope</li>
+			<li>A pinch of patience</li>
+		</ul>
+		<p>
+			<span class="bold underline">Step 1:</span> Grab your wii mini board
+			and flip it over to the back side. Done? Wow you must be a bloody
+			genius.
+		</p>
+
+		<p>
+			<span class="bold underline">Step 2:</span> Time to spice things up a
+			little. Use your ultra zoom &amp; enhance bionic vision to locate the
+			golden circular pad labeled
+			<code>TP233</code>
+			. Because you're probably not gonna find it yourself, I took time out
+			of my life to circle it in lovely poiple colour in the picture below:
+		</p>
+
+		<img src="images/tp233.png">
+
+		<p>
+			<span class="bold underline">Step 3:</span> Take your glorified
+			burnstick and use that funny melty metal thing of yours to solder one
+			and only one side of one and only one of your wires. Then, take the
+			other side of that same wire and solder it to one pin of the button.
+			It shouldn't matter which one if it has two.<br />If you're a pleb
+			and using surface mount buttons with 4 pins or something else, grab
+			your multimeter in continuity mode and check which of these pins are
+			shorted together and which are only shorted when you press the
+			button. Solder it to any of the pins, but make sure your other wire
+			goes to a pin that only shorts with the first when the button is as
+			depressed as a 13 year-old white TikTok girl.
+		</p>
+
+		<p>
+			<span class="bold underline">Step 4:</span> Solder the other wire to
+			any ground point on the board. Some recommended ones are marked below
+			in grey. If you know how to find a ground point yourself, you can
+			solder it there. Note that we do not recommend using
+			<code>TP172</code>
+			in section C as it may be used later for a different mod. Also keep
+			in mind that some of the ground pads in the perimeter are covered by
+			the metal shielding of the console so make sure you don't overdo it
+			with solder or the shield may not close properly.
+		</p>
+		
+		<img src="images/groundpads.png">
+
+		<p>
+			<span class="bold underline">Step 5:</span> If you aren't planning to
+			continue wasting time on another mod, find a place to mount your
+			reset switch, a popular location is above the USB port or inside the
+			dvd cover. Then, close up your console and boot it up. Try pressing
+			the reset button while in the Wii menu. If the menu reloads,
+			congratulations! You have now added <span class="italic">a
+				button</span>! If you have <a href="https://wiibrew.org/wiki/Priiloader">Priiloader</a>
+			installed (which you should if you want any chance of your console
+			surviving some bricks) you can now enter it by holding Reset when the
+			console boots.
+		</p>
+	</div>
+</body>
+</html>

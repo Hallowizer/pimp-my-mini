@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body {
+	background-color: #111111;
+	color: #eeeeee;
+	font-family: sans-serif
+}
+
+a {
+	color: #ddddff;
+}
+
+.sideRed {
+	background-color: #ee0000;
+	width: 2%;
+	height: 100%;
+}
+
+#leftRed {
+	position: fixed;
+	left: 0%;
+	top: 0%;
+}
+
+#rightRed {
+	position: fixed;
+	right: 0%;
+	top: 0%;
+}
+
+#content {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.nextStep {
+	padding: 4px;
+	background-color: #dd0088;
+}
+
+.center {
+	align: center;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+}
