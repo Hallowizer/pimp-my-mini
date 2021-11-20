@@ -5,3 +5,5 @@ Wii mini hardmod tutorials are here.
 Most of the writing was by Devnol, Hallowizer changed some of it to reference Discord less.
 
 Most hardware pictures are from DeadlyFoez, except the ripped motherboard, which came from BeatYT.
+
+Stuff in images/ifixit came from iFixIt, so it is licensed under their license.
