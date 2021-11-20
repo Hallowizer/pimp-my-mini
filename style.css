@@ -39,7 +39,8 @@ a {
 }
 
 .center {
-	align: center;
+	text-align: center;
+	width: 100%;
 }
 
 .strike {
