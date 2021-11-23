@@ -43,6 +43,10 @@ a {
 	width: 100%;
 }
 
+.text-center {
+	text-align: center;
+}
+
 .strike {
 	text-decoration: line-through;
 }
@@ -61,4 +65,9 @@ a {
 
 h2 {
 	margin-top: 50px;
+}
+
+table {
+	border-color: #eeeeee;
+	border-collapse: collapse;
 }
